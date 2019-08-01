@@ -19,6 +19,16 @@ main
 	
 }
 
+table ,tr ,td
+{
+	border:solid grey;
+}
+
+table
+{
+	width:100%
+}
+
 footer
 {
 	background-color:darkslategrey;
