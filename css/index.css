@@ -75,6 +75,21 @@ main
 	margin:0 1rem;
 }
 
+.bold_word
+{
+	font-weight:bold
+}
+
+.gap
+{
+	margin-bottom:2rem
+}
+
+.contact_data
+{
+	margin-left:3rem;
+}
+
 h2
 {
 	margin:1rem 1rem;
@@ -86,7 +101,9 @@ h2
 
 h3
 {
-	margin:1rem 1rem;	
+	margin:0 1rem;
+	margin-top:2rem;
+	margin-bottom:1rem;	
 }
 
 p,ul,ol,li,#first_table
