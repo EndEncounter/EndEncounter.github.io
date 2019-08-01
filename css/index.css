@@ -45,8 +45,6 @@ main
 }
 
 
-
-
 #first_pic
 {
 	display:flex;
@@ -62,15 +60,41 @@ main
 #second_pic
 {
 	display:flex;
-	justify-content:center
+	justify-content:center;
+	align-items:center;
+	margin:1rem 2rem;
 }
 
 #second_pic img
 {
 	width:250px;
 	height:250px;
-	
 }
+#second_pic p
+{
+	margin:0 1rem;
+}
+
+h2
+{
+	margin:1rem 1rem;
+	background-color:darkred;
+	padding:1rem 0;
+	text-align:center;
+	font-size:2rem;
+}
+
+h3
+{
+	margin:1rem 1rem;	
+}
+
+p,ul,ol,li,#first_table
+{
+	margin:1rem 2rem;	
+}
+
+
 
 table ,tr ,td
 {
@@ -88,4 +112,5 @@ footer
 	width:90%;
 	margin:0 auto;
 	text-align:right;
+	padding:1rem 0;
 }
